@@ -1,0 +1,188 @@
+{
+  "editor.fontFamily": "'Iosevka Curly'",
+  "workbench.colorTheme": "Developers Dojo: Seppuku",
+  "terminal.integrated.fontFamily": "Ubuntu Mono",
+  "workbench.productIconTheme": "fluent-icons",
+
+  "window.zoomLevel": 0.05,
+  "editor.rulers": [30, 45, 60, 75, 90, 90, 90, 91, 92, 92, 92],
+
+  "editor.fontSize": 15.75,
+  "editor.lineHeight": 25,
+  "terminal.integrated.fontSize": 16,
+  "editor.wordWrapColumn": 94,
+  "editor.tabSize": 4,
+
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "debug.showBreakpointsInOverviewRuler": true,
+  "editor.detectIndentation": false,
+  "color-highlight.markRuler": false,
+
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.highlightModifiedTabs": false,
+  "workbench.editor.tabSizing": "fit",
+  "workbench.editor.pinnedTabSizing": "normal",
+
+  "git.countBadge": "all",
+  "scm.alwaysShowRepositories": true,
+  "scm.alwaysShowActions": true,
+  "scm.countBadge": "all",
+  "scm.providerCountBadge": "visible",
+  "scm.defaultViewMode": "tree",
+  "scm.diffDecorations": "gutter",
+  "scm.diffDecorationsGutterWidth": 4,
+
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.scale": 1,
+
+  "better-comments.tags": [
+    {
+      /* 
+
+            <<----------------|| FOOBAR BOOFAR ||---------------->>             */
+      "tag": " <<-",
+      "color": "#FFC810",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": false,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      "tag": " |> ",
+      "color": "#299EEE",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": true,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      // ||> BabyBlue_@_HEX_10BEFF
+      "tag": " ||> ",
+      "color": "#10BEFF",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": false,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      // *|> MellowYellow_@_HEX_C8C440
+      "tag": " *|> ",
+      "color": "#C8C440",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": false,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      // => Crimson(Bold)_@_HEX_E52050
+      "tag": " :|> ",
+      "color": "#E52050",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": true,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      // ===> RED
+      "tag": " ===> ",
+      "color": "#E51E0E",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": false,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      // ==> ORANGE
+      "tag": " ==> ",
+      "color": "#FF8040",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": false,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      // => PINK
+      "tag": " => ",
+      "color": "#FF98D2",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": false,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      // -> FLOURECENT BLUE
+      "tag": " -> ",
+      "color": "#12E2FC",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": false,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      // -> CRIMSON
+      "tag": " --> ",
+      "color": "#FF0430",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": false,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      // -> Spring Green
+      "tag": " ---> ",
+      "color": "#09E999",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": false,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      // WTF? What the foobar?
+      "tag": "WTF?",
+      "color": "#FF00FF",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": false,
+      "underline": false,
+      "strikethrough": false
+    },
+
+    {
+      // * NOTE: "Throws a oofRab if rooFab === fooBar && booFar."
+      "tag": "* Note:",
+      "color": "#2CCCFF",
+      "backgroundColor": "transparent",
+      "italic": false,
+      "bold": false,
+      "underline": false,
+      "strikethrough": false
+    }
+  ],
+  "scm.inputFontFamily": "'Ubuntu Mono'"
+}
