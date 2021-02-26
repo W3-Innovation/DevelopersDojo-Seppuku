@@ -1,0 +1,2 @@
+# DevelopersDojo-Seppuku
+This is 'Developer's Dojo: Seppuku', a Visual Studios Code Theme. This theme looks Red &amp; Black, but is technicly Charcoal &amp; Crimson. This is one of my favorite themes, the chorcoal, lends its dark tones to the bright crimson highlights cuasing an almost red glow. I worked extreamly long hours creating the perfect color pallete for a Seppuku.  Developer's Dojo is a collection of themes, and Seppuku is the first of the three released. I really hope you enjoy it as much as I enjoyed making it!
