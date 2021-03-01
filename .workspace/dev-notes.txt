@@ -1,0 +1,7 @@
+<!-- <u style="text-decoration-style: wavy; color: #ff2b00d0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </u> -->
+
+
+colorPool: ["#9AFF04", "#00000000"]
+
+Color Notes:
+Links: #5AE8FF 

@@ -1,14 +1,14 @@
 {
-  "editor.fontFamily": "'Iosevka Curly'",
   "workbench.colorTheme": "Developers Dojo: Seppuku",
+  "editor.fontFamily": "'Iosevka Curly'",
   "terminal.integrated.fontFamily": "Ubuntu Mono",
   "workbench.productIconTheme": "fluent-icons",
 
-  "window.zoomLevel": 0.05,
+  "window.zoomLevel": 0.0775,
   "editor.rulers": [30, 45, 60, 75, 90, 90, 90, 91, 92, 92, 92],
 
-  "editor.fontSize": 15.75,
-  "editor.lineHeight": 25,
+  "editor.fontSize": 16.5,
+  "editor.lineHeight": 23,
   "terminal.integrated.fontSize": 16,
   "editor.wordWrapColumn": 94,
   "editor.tabSize": 4,
