@@ -1,6 +1,7 @@
 {
     "$schema": "vscode://schemas/color-theme",
     "type": "dark",
+    "semanticHighlighting": true,
     "colors": {
         "activityBar.activeBackground": "#00000000",
         "activityBar.activeBorder": "#FF003D",
@@ -533,6 +534,23 @@
         //"testing.message.hint.lineBackground": null,
         //"walkThrough.embeddedEditorBackground": null
     },
+
+    "semanticTokenColors": {
+        "class.declaration:javascript": {
+            "foreground": "#00000000",
+            "bold": false,
+            "italic": false,
+            "underline": false
+        },
+
+        "method.declaration:javascript": {
+            "foreground": "#00000000",
+            "bold": false,
+            "italic": false,
+            "underline": false
+        }
+    },
+
     "tokenColors": [
         {
             "scope": "token.info-token",
@@ -687,8 +705,17 @@
             "name": "CONSTANT",
             "scope": "constant",
             "settings": {
-                "foreground": "#5EE00EE0",
-                "fontStyle": ""
+                "foreground": "#B83FFF",
+                "fontStyle": "italic"
+            }
+        },
+
+        {
+            "name": "CONSTANT: Numeric",
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#BBBBBB",
+                "fontStyle": "bold"
             }
         },
 
