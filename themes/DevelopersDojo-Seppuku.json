@@ -588,7 +588,7 @@
             "name": "COMMENT",
             "scope": "comment",
             "settings": {
-                "foreground": "#206854",
+                "foreground": "#247458",
                 "fontStyle": "italic"
             }
         },
@@ -597,7 +597,7 @@
             "name": "COMMENT: Block",
             "scope": "comment.block",
             "settings": {
-                "foreground": "#722040",
+                "foreground": "#50545A",
                 "fontStyle": "italic"
             }
         },
@@ -606,7 +606,43 @@
             "name": "Comments/Punctuation: Signal-Comment-Punctuation",
             "scope": "punctuation.definition.comment",
             "settings": {
-                "foreground": "#FFFFFF64",
+                "foreground": "#FFFFFF60",
+                "fontStyle": ""
+            }
+        },
+
+        {
+            "name": "COMMENT: JSDoc Documentation-Type",
+            "scope": "storage.type.class.jsdoc",
+            "settings": {
+                "foreground": "#902045",
+                "fontStyle": "underline"
+            }
+        },
+
+        {
+            "name": "COMMENT: JSDoc Variables-Name",
+            "scope": "variable.other.jsdoc",
+            "settings": {
+                "foreground": "#808080",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "name": "COMMENT: JSDoc Variables-Type",
+            "scope": "entity.name.type.instance.jsdoc",
+            "settings": {
+                "foreground": "#247458",
+                "fontStyle": ""
+            }
+        },
+
+        {
+            "name": "COMMENT: JSDoc Annotation Marker",
+            "scope": "punctuation.definition.block.tag",
+            "settings": {
+                "foreground": "#AA5030",
                 "fontStyle": ""
             }
         },
@@ -762,15 +798,6 @@
             }
         },
 
-        {
-            "name": "JSDOC: Type",
-            "scope": "storage.type.class.jsdoc",
-            "settings": {
-                "foreground": "#84102D",
-                "fontStyle": "bold"
-            }
-        },
-
         /* 
 
 
@@ -793,16 +820,18 @@
                 "source.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#50C288"
+                "foreground": "#28BF64",
+                "fontStyle": "bold"
             }
         },
+
         {
             "name": "JSON: LvL-1 Block",
             "scope": [
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#50C288"
+                "foreground": "#42C484"
             }
         },
         {
@@ -811,66 +840,75 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#D84D6A"
+                "foreground": "#DD4864"
             }
         },
+
         {
             "name": "JSON: LvL-3 Block",
             "scope": [
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#50C288"
+                "foreground": "#42C484"
             }
         },
+
         {
             "name": "JSON: LvL-4 Block",
             "scope": [
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#D84D6A",
+                "foreground": "#DD4864",
                 "fontStyle": ""
             }
         },
+
         {
             "name": "JSON: LvL-5 Block",
+
             "scope": [
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
+
             "settings": {
-                "foreground": "#50C288"
+                "foreground": "#42C484"
             }
         },
+
         {
             "name": "JSON: LvL-6 Block",
             "scope": [
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#D84D6A"
+                "foreground": "#DD4864"
             }
         },
+
         {
             "name": "JSON: LvL-7 Block",
             "scope": [
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#50C288"
+                "foreground": "#42C484"
             }
         },
+
         {
             "name": "JSON: LvL-8 Block",
             "scope": [
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#D84D6A"
+                "foreground": "#DD4864"
             }
         },
+
         {
-            "name": "JSON: Punctuation (Pink)",
+            "name": "JSON: Punctuation @ (#4A9AC4)",
             "scope": [
                 "punctuation.support.type.property-name.begin.json",
                 "punctuation.support.type.property-name.end.json",
@@ -878,12 +916,13 @@
                 "punctuation.definition.string.end.json"
             ],
             "settings": {
-                "foreground": "#E284C2",
+                "foreground": "#64ACC4",
                 "fontStyle": ""
             }
         },
+
         {
-            "name": "JSON: Puntuation (Blue)",
+            "name": "JSON: Puntuation @ (#BBBBBB)",
             "scope": [
                 "punctuation.definition.array.begin.json",
                 "punctuation.definition.array.end.json",
@@ -891,7 +930,7 @@
                 "punctuation.definition.dictionary.end.json"
             ],
             "settings": {
-                "foreground": "#60AFFF",
+                "foreground": "#64ACC4",
                 "fontStyle": ""
             }
         },
@@ -903,11 +942,10 @@
                 "punctuation.separator.array.json"
             ],
             "settings": {
-                "foreground": "#50C288",
+                "foreground": "#64ACC4",
                 "fontStyle": ""
             }
         },
-
         {
             "name": "JSON: String",
             "scope": ["string.quoted.double.json"],
