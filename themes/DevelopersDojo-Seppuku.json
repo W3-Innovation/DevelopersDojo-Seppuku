@@ -66,7 +66,6 @@
         "editorGroupHeader.tabsBorder": "#ff001070",
         "editorGutter.modifiedBackground": "#00F5FF",
         "editorGutter.addedBackground": "#44E814",
-
         "editorGutter.deletedBackground": "#FF6000",
         "editorGutter.background": "#00000028",
         "editorGutter.commentRangeForeground": "#cc10cc",
@@ -536,16 +535,16 @@
     },
 
     "semanticTokenColors": {
-        "class.declaration:javascript": {
-            "foreground": "#00000000",
-            "bold": false,
+        "class:javascript": {
+            "foreground": "#14BB70",
+            "bold": true,
             "italic": false,
             "underline": false
         },
 
         "method.declaration:javascript": {
-            "foreground": "#00000000",
-            "bold": false,
+            "foreground": "#30B5D5EE",
+            "bold": true,
             "italic": false,
             "underline": false
         }
@@ -678,7 +677,7 @@
             "name": "STRING",
             "scope": ["string"],
             "settings": {
-                "foreground": "#348C94",
+                "foreground": "#BBA88E",
                 "fontStyle": "italic"
             }
         },
@@ -802,7 +801,7 @@
             "name": "FUNCTION: FunctionName & MethodName",
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#16BBFF",
+                "foreground": "#30B5D5",
                 "fontStyle": ""
             }
         },
@@ -811,7 +810,7 @@
             "name": "This Scope",
             "scope": "variable.language.this",
             "settings": {
-                "foreground": "#18C8CC",
+                "foreground": "#4090FF",
                 "fontStyle": "italic"
             }
         },
@@ -961,6 +960,7 @@
                 "fontStyle": ""
             }
         },
+
         {
             "name": "JSON: Punctuation (Green)",
             "scope": [
@@ -973,12 +973,122 @@
                 "fontStyle": ""
             }
         },
+
         {
             "name": "JSON: String",
             "scope": ["string.quoted.double.json"],
             "settings": {
                 "foreground": "#CCC4B0",
                 "fontStyle": "italic"
+            }
+        },
+        /*
+
+
+
+
+        <<-------------------------|| HTML TOKENS ||------------------------->>  */
+        {
+            "name": "HTML: Text",
+            "scope": "text.html",
+            "settings": {
+                "foreground": "#FFFFFF94",
+                "fontStyle": ""
+            }
+        },
+
+        {
+            "name": "HTML: String",
+            "scope": ["string.quoted.double.html", "string.quoted.single.html"],
+            "settings": {
+                "foreground": "#FFB7C5",
+                "fontStyle": "italic"
+            }
+        },
+
+        {
+            "name": "HTML PUNCTUATION: Tag-Brackets, Quatation-Marks, Attribute-Equals-Sign",
+            "scope": [
+                "punctuation.separator.key-value.html",
+                "punctuation.definition.tag",
+                "punctuation.definition.string.begin.html",
+                "punctuation.definition.string.end.html"
+            ],
+            "settings": {
+                "foreground": "#C80F4F",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "name": "HTML PUNCTUATION: ScriptTag's Brackets",
+            "scope": "source.js-ignored-vscode, punctuation.definition.tag.begin.html",
+            "settings": {
+                "foreground": "#C80F4F",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "name": "HTML TAG SELECTOR: All-Tags",
+            "scope": ["meta.tag"],
+            "settings": {
+                "foreground": "#129AA5",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "name": "HTML ATTRIBUTE SELECTOR: All-Attributes",
+            "scope": ["meta.attribute", "entity.other.attribute-name.html"],
+            "settings": {
+                "foreground": "#C80F4F",
+                "fontStyle": ""
+            }
+        },
+
+        {
+            "name": "HTML TAG SELECTOR: Doctype-Tag & Html-Tag",
+            "scope": ["meta.tag.metadata.doctype", "meta.tag.structure.html"],
+            "settings": {
+                "foreground": "#C80F4F",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "name": "HTML TAG SELECTOR: HeadTag, BodyTag",
+            "scope": ["meta.tag.structure.head", "meta.tag.structure.body"],
+            "settings": {
+                "foreground": "#C80F4F",
+                "fontStyle": "italic"
+            }
+        },
+
+        {
+            "name": "HTML TAG SELECTOR: ScriptTag, MetaTag",
+            "scope": ["meta.tag.metadata.script", "meta.tag.metadata.meta"],
+            "settings": {
+                "foreground": "#129AA5",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "name": "HTML TAG SELECTOR: H1-Tag, H2-Tag, H3-Tag, H4-Tag, H5-Tag, H6-Tag",
+
+            "scope": [
+                "meta.tag.structure.h1",
+                "meta.tag.structure.h2",
+                "meta.tag.structure.h3",
+                "meta.tag.structure.h4",
+                "meta.tag.structure.h5",
+                "meta.tag.structure.h6"
+            ],
+
+            "settings": {
+                "foreground": "#129AA5",
+                "fontStyle": "bold"
             }
         }
     ]
